@@ -7,7 +7,7 @@ import * as url from 'url';
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const config = {
-    entry: './src/business-reference-component.ts',
+    entry: './src/business-reference-architecture.ts',
     module: {
         rules: [
             {
@@ -21,7 +21,7 @@ const config = {
         extensions: ['.tsx', '.ts', '.js']
     },
     output: {
-        filename: 'business-reference-component.js',
+        filename: 'business-reference-architecture.js',
         path: path.resolve(__dirname, './dist')
     },    
     plugins: [

@@ -1,11 +1,11 @@
-# Business reference component for [md-docs](https://github.com/biz-dev-ops/md-docs-cli)
+# Business reference archirecture for [md-docs](https://github.com/biz-dev-ops/md-docs-cli)
 
 HTML5 web component which renders a business reference architecture.
 
 ## Usage
 
-- Add `business-reference-component.js` to the webpage
-- Add the `<business-reference-component></business-reference-component>` to the page
+- Add `business-reference-archirecture.js` to the webpage
+- Add the `<business-reference-archirecture></business-reference-archirecture>` to the page
 
 ## Attributes
 
@@ -22,13 +22,13 @@ The business reference model, must be set via JavaScript.
 ### HTML
 
 ```html
-<business-reference-component model-json="{ &quot;key &quot;: &quot;value &quot; }" />
+<business-reference-archirecture model-json="{ &quot;key &quot;: &quot;value &quot; }" />
 ```
 
 ### HTML and JavaScript
 
 ```html
-<business-reference-component id="business-reference-architecture" />
+<business-reference-archirecture id="business-reference-architecture" />
 
 <script>
     document.getElementById('business-reference-architecture').model = {

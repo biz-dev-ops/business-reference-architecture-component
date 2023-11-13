@@ -1,13 +1,13 @@
 import { html, css, LitElement } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-import resetStyles from './modules/resetStyles';
-import { ModelItem } from './business-reference-component.types';
+import resetStyles from './modules/styles/reset';
+import { Model } from './modules/models/model';
 
-@customElement('business-reference-component')
-export class BusinessReferenceComponent extends LitElement {
+@customElement('business-reference-architecture')
+export class BusinessReferenceArchitecture extends LitElement {
   @property() 
-  model!: ModelItem
+  model!: Model
 
   @property({ attribute: "model-json" })
   modelJson!: string
