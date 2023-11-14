@@ -32,7 +32,11 @@ The business reference architecture model, must be set via JavaScript.
 
 <script>
     document.getElementById('business-reference-architecture').model = {
-    	...
+    	endUsers: [ "..." ],
+        channels: [ "..." ],
+        vallueStreams: [ "..." ],
+        businessCapabilities: [ "..." ],
+        principles: [ "..." ]
     }
 <script>
 ```
