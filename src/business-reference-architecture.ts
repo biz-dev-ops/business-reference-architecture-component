@@ -5,7 +5,7 @@ import resetStyles from './modules/styles/reset';
 import { Model } from './modules/models/model';
 
 @customElement('business-reference-architecture')
-export class BusinessReferenceArchitecture extends LitElement {
+export class BusinessReferenceArchitectureComponent extends LitElement {
   @property() 
   model!: Model
 
@@ -26,7 +26,7 @@ export class BusinessReferenceArchitecture extends LitElement {
   override updated() { }
 
   static override get styles() {
-    const styles =  css``;
+    const styles = css``;
 
     return [resetStyles, styles];
   }
